@@ -32,7 +32,7 @@
 }
 a {
     text-decoration:none;
-    color:black;
+    color:gray;
     
 }
 a:hover
@@ -42,4 +42,10 @@ a:hover
 td {
    width:33%;
    text-align:center; 
+}
+p {
+    font-family: Georgia, Garamond;
+}
+h1 {
+    font-family: Verdana, Garamond;
 }
