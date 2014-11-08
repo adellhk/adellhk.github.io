@@ -1,4 +1,4 @@
-/*color palette: light green: #34FF52; chartreuse: #95E835; pale gold: #FFF247; 24k: #E8B531; ochre: #FF932E; PT sans*/
+/*color palette: light green: #34FF52; chartreuse: #95E835; pale gold: #FFF247; 24k: #E8B531; ochre: #FF932E; PT sans; Icons: Boysenberry: #6B2545*/
 
 #container {
     position: static;
@@ -41,7 +41,7 @@ a {
 }
 a:hover
 {
-    color:blue;
+    color: #6B2545;
 }
 td {
    width:33%;
