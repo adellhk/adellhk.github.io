@@ -54,3 +54,9 @@ h1 {
     font-family: Verdana, Garamond;
     margin: 0;
 }
+pre {
+    border: solid 1px #6B2545;
+    color: #6B2545; 
+    padding:10px; 
+    background: #FFFFB3
+ }
