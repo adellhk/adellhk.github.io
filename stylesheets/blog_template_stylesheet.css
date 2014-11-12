@@ -23,8 +23,6 @@
     font-size: 2em;
 }
 #section {
-    
-    float: left;
     padding: 10px;
 }
 #footer {
@@ -57,7 +55,7 @@ h1 {
 pre {
     border: solid 1px #6B2545;
     color: #6B2545; 
-    padding:10px; 
     background: #FFFFB3;
     display: inline-block;
+    overflow: hidden;
  }

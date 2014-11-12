@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog_template_stylesheet.css">
+        <title>Adell's Blog</title>
+    </head>
+
+<body>
+    <div id="container">
+        <div id="header">
+             Blog
+        </div>
+        <div id="nav">
+            <a href="../index.html">About</a> <a href="portfolio.html">Portfolio</a> <a href="blog\t1-git-blog.html">Blog</a> <a href="mailto:adell.hk@gmail.com"><img width=44px src="../imgs/gmail-166x120.png"></a><a href="https://github.com/adellhk/"><img height=36px src="../imgs/github-128.png"></a><a href="https://plus.google.com/u/0/100398098310213940030"><img height=36px src="../imgs/google+.png"></a><a href="https://twitter.com/iamadell"><img height=36px src="../imgs/twitter-bird.png"></a><a href="https://www.facebook.com/adell.hk"><img height=36px src="../imgs/facebook.png"></a>
+        </div>
+        <div id="section">
+            <table width="100%" align="center">     
+                <tr>
+                    <td><a href="t2-css-design.html">Previous</a></td>
+                    <td>11.11.14</td>
+                    <td><!--<a href="next.html">Next</a></td>-->
+                </tr>
+            </table>
+            <h1 align="center">Arrays and Hashes</h1>
+            <h3>Arrays</h3>
+            <p>Arrays are groups of values. Each value in an array
+            <br><pre>my_array = ["I", "am", "Adell"]</pre><br>can be accessed by its numerical location, called an index. The index count starts at 0. We can access the first element of my_array, "I", with <br><pre>my_array[0]</pre><br> and the element "Adell" with <br><pre>my_array[2]</pre><br> We can also access the first and last elements in an array with the methods<br><pre>my_array.first</pre><br>or<br><pre>my_array.last</pre><br>Arrays can hold any kind of object, such as a string, integer, or even another array.</p>
+            <h3>Hashes</h3>
+            <p>Hashes are like arrays, except instead of using a numerical index to access the values, we use keys. All of the values in a hash are stored with a corresponding key. These are called key-value pairs. An example hash would be<br><pre>my_hash = { "key_1" => "I", "key_2" => "am", "key_3" => "Adell" }</pre><br>To access the value "Adell", we would do<br><pre>hash[key_3]</pre><br> We can also store multiple elements at a key location in a hash by putting them in an array, such as <br><pre>my_hash_2 = { "key_x" => "I", "key_array" => ["am", "Adell"]}</pre><br>Like arrays, hashes can store any kind of object as a value. Unlike arrays, their keys can also be any kind of object. We can use an integer, string, or symbol as a key, such as<br><pre>my_hash_3 = { 1 => "I", :2 => "am", "third_key" => "Adell" }</pre></p>
+            <h3>When to Use Hashes or Arrays</h3>
+            <p>Generally, we use hashes when we need to store a value with a specific key. Naturally, if we need to store a value with a key that is not an integer, we must use a hash, but it is also better to use a hash when we are using integers as keys, unless they start very close to zero and increment by ones, otherwise we will have a lot of wasted space. For example if you have a product cataloguing system and wish to pair product IDs to the products "Greatest Hits CD", "Plastic Water Bottle", and "Phone Case", you could do this efficiently with an array if you were content with the product IDs being 0, 1, and 2.<br><pre>product_catalogue = ["Greatest Hits CD", "Plastic Water Bottle", "Phone Case"]</pre><br>You could also do this moderately efficiently with an array if you wanted your product IDs to be 1, 5, and 8.<br><pre>product_catalogue = [nil, "Greatest Hits CD", nil, nil, nil, "Plastic Water Bottle", nil, nil, "Phone Case"]</pre><br>However if you wanted your product IDs to be 102934, 183924, and 394102, you would need to us a hash.<br><pre>product_catalogue = { 102934 => "Greatest Hits CD", 183924 => "Plastic Water Bottle", 394102 => "Phone Case"}</pre></p>
+        </div>
+        <div id="footer"><!--Footer--></div>
+    </div>
+</html>
