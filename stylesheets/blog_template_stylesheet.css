@@ -23,7 +23,7 @@
     font-size: 2em;
 }
 #section {
-    width: 350px;
+    
     float: left;
     padding: 10px;
 }
@@ -58,5 +58,6 @@ pre {
     border: solid 1px #6B2545;
     color: #6B2545; 
     padding:10px; 
-    background: #FFFFB3
+    background: #FFFFB3;
+    display: inline-block;
  }
