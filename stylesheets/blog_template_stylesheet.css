@@ -59,3 +59,10 @@ pre {
     display: inline-block;
     overflow: hidden;
  }
+ inline-pre {
+    border: solid 1px #6B2545;
+    color: #6B2545; 
+    background: #FFFFB3;
+    display: inline;
+    overflow: hidden;
+ }
