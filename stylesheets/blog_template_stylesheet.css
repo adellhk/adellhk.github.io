@@ -57,7 +57,8 @@ pre {
     color: #6B2545; 
     background: #FFFFB3;
     display: inline-block;
-    overflow: hidden;
+    word-wrap: break-word;
+    max-width: 100%;
  }
  inline-pre {
     border: solid 1px #6B2545;
