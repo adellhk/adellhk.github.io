@@ -59,6 +59,8 @@ pre {
     display: inline-block;
     word-wrap: break-word;
     max-width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
  }
  inline-pre {
     border: solid 1px #6B2545;
@@ -66,4 +68,19 @@ pre {
     background: #FFFFB3;
     display: inline;
     overflow: hidden;
+    padding-left: .5em;
+    padding-right: .5em;
  }
+
+ .circular {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../imgs/Eyecatchers3222300px.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
