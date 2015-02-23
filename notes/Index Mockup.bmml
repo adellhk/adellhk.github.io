@@ -1,0 +1,24 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="921" measuredH="617" mockupW="578" mockupH="562">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="398" y="98" w="523" h="464" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cover%20Image</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="343" y="55" w="-1" h="-1" measuredW="342" measuredH="43" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adell%20Hanson-Kahn</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="343" y="98" w="307" h="441" measuredW="200" measuredH="182" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>About%0APortfolio%0AContact%0ABlog</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="349" y="570" w="572" h="47" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

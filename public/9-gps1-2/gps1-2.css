@@ -1,0 +1,40 @@
+.container {
+  background-color: beige;
+  color: green;  
+  border: solid yellow 1px;
+  max-width: 50em;
+  margin: auto;
+}
+.top-bar  {
+  position: static;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 6em;
+  width: 100%;
+  border: solid blue 1px;
+}
+#top-bar-title{
+  position: relative;
+  margin-left: 1em;
+  display: inline-block;
+  top: 1em;
+  border: solid black 1px;
+  color: #3D352A;
+}
+#top-bar-names {
+  top: 1em;
+  right: 1em;
+  position: relative;
+  display: inline-block;
+  float: right;
+  border: solid black 1px;
+}
+.text-box {
+    padding-left: 1em;
+    border: solid black 1px;
+    margin: 1em;
+}
+.text-box h3 {
+    color: #4F4F2F;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog_template_stylesheet.css">
+        <title>Adell's Blog</title>
+    </head>
+
+<body>
+    <div id="container">
+        <div id="header">
+             Blog
+        </div>
+        <div id="nav">
+            <a href="../index.html">About</a> <a href="../portfolio.html">Portfolio</a> <a href="blog\t1-git-blog.html">Blog</a> <a href="mailto:adell.hk@gmail.com"><img width=44px src="../imgs/gmail-166x120.png"></a><a href="https://github.com/adellhk/"><img height=36px src="../imgs/github-128.png"></a><a href="https://plus.google.com/u/0/100398098310213940030"><img height=36px src="../imgs/google+.png"></a><a href="https://twitter.com/iamadell"><img height=36px src="../imgs/twitter-bird.png"></a><a href="https://www.facebook.com/adell.hk"><img height=36px src="../imgs/facebook.png"></a>
+        </div>
+        <div id="section">
+            <table width="100%" align="center">     
+                <tr>
+                    <td><a href="c3-thinking-style.html">Previous</a></td>
+                    <td>11.22.14</td>
+                    <td><a href="c4-tech-issues.html">Next</a></td>
+                </tr>
+            </table>
+            <h1 align="center">The Ruby Enumerable Method "Cycle"</h1>
+            <h3>Enumerables</h3>
+            <p>Ruby's "classes" can reference "mixins" such as "enumerable." A ruby class is like a blueprint for a certain virtual item in a computer's memory. If the virtual item we were trying to create was a bluejay (the bird), we might use the imaginary class "Bird". We could also use Bird to create a finch or an eagle. The bluejay, finch, and eagle would all be instances (objects) of the class Bird. If that class included the mixin, "flight", then we would be able to use the things that are included in the "flight" collection. In this way, Ruby's classes, such as "fixnums" (which are just numbers such as 1, 2, and 3) include some mixins, including "enumerable".</p>
+            <p>For a class to use enumerable, the objects of the class (the things created by the class and that belong to the class) must be accessible via <inline-pre>#Each</inline-pre>. The string of characters, <inline-pre>"abcdef"</inline-pre> is not accessible with each:</p>
+<pre>"abcdef".each #=> NoMethodError: undefined method 'each' for "abcdef":String</pre>
+            <p>However it is accessible via each_char:</p>
+<pre>"abcdef".each_char</pre>
+            <p>The range of numbers 1-3 is accessible via each:</p>
+<pre>(1..3).each {|i| print i} #=>1;2;3;</pre>
+            <p>Enumerable also allows the object of a class that includes it to be searched, sorted, and selected with methods like <inline-pre>:find</inline-pre>, <inline-pre>:sort</inline-pre>, and <inline-pre>:select</inlne-pre>.
+            <h3>Cycle</h3>
+            <p>Cycle is an enumerable method that runs a block, a set of instructions, a number of times, or if no number of times is given, it runs the block infinitely.</p>
+<pre>(1..3).cycle(3) { |i| puts i } #=>1, 2, 3, 1, 2, 3, 1, 2, 3</pre>
+            <p>In that example, we used <inline-pre>:cycle</inline-pre> on the range "1, 2, 3", shown as <inline-pre>(1..3)</inline-pre>. We told cycle to run the block three times <inline-pre>.cycle(3)</inline-pre>. The block was the section in curly brackets, <inline-pre>{ |i| puts i}</inline-pre> and follows the form, for the object represent by the variable "i" (it can be called anything, I picked "i"), <inline-pre>puts i</inline-pre>, which means print the string version of i. In this case the object represented by the variable on cycle's first run of three, is the first number in the range 1-3, followed by the second number, and lastly the third number. So cycle prints <inline-pre>1, 2, 3</inline-pre> and then starts the second cycle<inline-pre>1, 2, 3</inline-pre>. <inline-pre>:Cycle</inline-pre> can be used with any block, not just <inline-pre>puts i</inline-pre>!</p>
+        </div>
+        <div id="footer"><!--Footer--></div>
+    </div>
+</html>
