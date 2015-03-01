@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog_template_stylesheet.css">
+        <title>Adell's Blog</title>
+    </head>
+
+<body>
+    <div id="container">
+        <div id="header">
+             Blog
+        </div>
+        <div id="nav">
+            <a href="../index.html">About</a> <a href="../portfolio.html">Portfolio</a> <a href="blog\t1-git-blog.html">Blog</a> <a href="mailto:adell.hk@gmail.com"><img width=44px src="../imgs/gmail-166x120.png"></a><a href="https://github.com/adellhk/"><img height=36px src="../imgs/github-128.png"></a><a href="https://plus.google.com/u/0/100398098310213940030"><img height=36px src="../imgs/google+.png"></a><a href="https://twitter.com/iamadell"><img height=36px src="../imgs/twitter-bird.png"></a><a href="https://www.facebook.com/adell.hk"><img height=36px src="../imgs/facebook.png"></a>
+        </div>
+        <div id="section">
+            <table width="100%" align="center">     
+                <tr>
+                    <td><a href="c6-stereotype-threat.html">Previous</a></td>
+                    <td>12.14.14</td>
+                    <td><a href="c7-values.html">Next</a></td>
+                </tr>
+            </table>
+            <h1 align="center">Looping in Ruby vs. Looping in JavaScript</h1>
+            <h3>JavaScript Loops</h3>
+            <p>JavaScript has two main kinds of loops that I'm familiar with, While and For loops. A while loop simply executes a block (a chunk of code) <i>while</i> a condition is true. It looks like this:</p>
+<pre>i = 0
+while (i < 10) {
+    console.log(i);
+    i = i + 1; // This can also be written i += 1
+}</pre>
+            <p> A for loop is very similar to a while loop, except that the loop-specific things, such as the starting value of the counter or condition (i = 0 in the example above), the condition (i < 10), and the increment (i += 1) are all stored in the parentheses after "for" and before the block, which is contained within the curly brackets, "{}". It looks like this:</p>
+<pre>for (i = 0; i < 10; i += 1) {
+    console.log(i);
+}</pre>
+            <h3>Ruby Loops</h3>
+            <p>Ruby Loops include for and while, but also some cool loops like :each and :times. These examples print the same thing as the javascript loops (namely, the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10).</p>
+<pre>10.times { |i| p i}
+(1..10).each { |i| p i}</pre>
+            <h3>Comparing JavaScript Loops with Ruby Loops</h3>
+            <p>JavaScript also has a way to iterate over a collection or enumerable, I think, called for/in, but I haven't learned that yet. Overall, I think Ruby loops are more user friendly and concise than JavaScript loops. There were several times during this week's challenges that I wished I could use Ruby loops.</p>
+        </div>
+        <div id="footer"><!--Footer--></div>
+    </div>
+</html>

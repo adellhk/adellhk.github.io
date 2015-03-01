@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog_template_stylesheet.css">
+        <title>Adell's Blog</title>
+    </head>
+
+<body>
+    <div id="container">
+        <div id="header">
+             Blog
+        </div>
+        <div id="nav">
+            <a href="../index.html">About</a> <a href="../portfolio.html">Portfolio</a> <a href="blog\t1-git-blog.html">Blog</a> <a href="mailto:adell.hk@gmail.com"><img width=44px src="../imgs/gmail-166x120.png"></a><a href="https://github.com/adellhk/"><img height=36px src="../imgs/github-128.png"></a><a href="https://plus.google.com/u/0/100398098310213940030"><img height=36px src="../imgs/google+.png"></a><a href="https://twitter.com/iamadell"><img height=36px src="../imgs/twitter-bird.png"></a><a href="https://www.facebook.com/adell.hk"><img height=36px src="../imgs/facebook.png"></a>
+        </div>
+        <div id="section">
+            <table width="100%" align="center">     
+                <tr>
+                    <td><a href="c5-feedback.html">Previous</a></td>
+                    <td>12.6.14</td>
+                    <td><a href="c6-stereotype-threat.html">Next</a></td>
+                </tr>
+            </table>
+            <h1 align="center">Blocks, Procs, and Lambdas</h1>
+            <h3>Blocks, Procs, and Lambdas are small chunks of code.</h3>
+<pre>(1..3).each { |i| p i} # The block is between the curly brackets
+
+p = Proc.new { |i| p i} # The Proc is the bit between the curly brackets, assigned to an object called "p"
+(1..3).each(&p) # The ampersand tells Ruby to use the Proc "p"
+
+l = lambda { |i| p i} # Lambda syntax is similar to Proc syntax, but slightly different
+(1..3).each(&l)
+</pre>
+            <p>As you may have inferred from the naming of the Proc, short for Procedure, and lambda, Procs and lambdas are objects, which can be reused. Procs, lambdas, and blocks are actually all forms of Procs, but blocks are not re-usable (you'd have to re-write the whole block), while Procs and lambdas are (just reference the &Proc or &lambda again). You can also call procs and lambdas with the method :call.
+            </p>
+<pre>p = Proc.new { puts "hi" }
+p.call # outputs "hi"
+
+l = lambda { puts "hi" }
+l.call #outputs "hi"</pre>
+            <P>Blocks, Procs, and lambdas can all also be used as arguments for a method, but a method can only have one Block as a argument, while the number of Procs or lambdas as arguments is not limited.
+            </p>
+<pre>def method (proc, proc2, proc3)
+end</pre>
+            <h3>Procs vs Lambdas</h3>
+            <p>Procs differ from lambdas in a few small ways. If you pass them the wrong number of arguments, a Proc will still run or return nil, while a lambda will raise an error.</p>
+<pre>p = Proc.new { |i| p i }
+p.call(1) # outputs 1
+p.call # outputs nil
+p.call(1, 2, 3) #outputs 1
+
+l = lambda { |i| p i }
+l.call(1) # outputs 1
+l.call #outputs ArgumentError: wrong number of arguments (0 for 1)
+l.call(1, 2, 3) # outputs ArgumentError: wrong number of arguments (3 for 1)</pre>
+            <p>Procs and lambdas handle "return" slightly differently. If you return from a lambda, it will exit the lambda call, but not the method you are in. If you return from a Proc, it will exit the Proc call and the method.</p>
+<pre>p = Proc.new { return }
+def proc_method
+    p.call
+    puts "We're still doing the code inside the method!"
+end # proc_method will not print out "We're still doing the code inside the method!". As soon as the Proc does "return", the computer will leave the method.
+
+l = lambda { return }
+def lambda_method
+    l.call
+    puts "We're still doing the code inside the method!"
+end # lambda_method will print out "We're still doing the code inside the method!". When the lambda does "return", it only exits the lambda call and then continues doing the next line in the method.</pre>
+
+            <p>I learned all of this from <a href="http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/">awaxman11</a></p>
+        </div>
+        <div id="footer"><!--Footer--></div>
+    </div>
+</html>
