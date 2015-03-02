@@ -98,11 +98,12 @@ div.content div.about img {
   height: 100%;
   opacity: .5;
 }
-div.resume {
+div.resume-content {
     /* margin: auto; */
-  
+
     /* background: black; */
-    text-align: center;
+    /* text-align: center; */
+    width: 623px;
 }
 /*div.content div.about div.circular {
   ma: 300px;
