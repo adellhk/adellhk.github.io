@@ -84,6 +84,7 @@ div.content div {
   /* margin: auto; */
   /* min-height: 20%; */
   /* border: 1px solid #E19291; */
+  /* text-align: center; */
 }
 div.content div.top-image img {
   width: 100%;
@@ -104,6 +105,9 @@ div.resume-content {
     /* background: black; */
     /* text-align: center; */
     width: 623px;
+    position: absolute;
+    left: 50%;
+    margin-left: -311px;
 }
 /*div.content div.about div.circular {
   ma: 300px;
