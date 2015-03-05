@@ -44,7 +44,7 @@ $(document).ready(function() {
   $('div.content button.portfolio').click(function() { $('div.content div.portfolio').slideToggle('fast'); });
   $('div.content button.resume').click(function() { $('div.content div.resume').slideToggle('fast'); });
   $('div.content button.blog').click(function() { $('div.content div.blog').slideToggle('fast'); });
-
+  $('div.resume-content').load('AdellResumeSpring2015.html')
 
 
 });
