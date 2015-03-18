@@ -110,6 +110,22 @@ div.content div.about img {
     margin-left: -311px;*/
     height: 800px;
 }
+div.portfolio-tile {
+  height: 15em;
+  width: 15em;
+  border: 1px solid black;
+  margin: .5em;
+  display: inline-block;
+  border-radius: 2px;
+}
+div.portfolio-content {
+  margin: auto;
+  display: table;
+}
+div#wtpTile {
+  background-image: url("../imgs/WeThePAC.jpg");
+  background-size: contain;
+}
 /*div.content div.about div.circular {
   ma: 300px;
   width: 300px;
