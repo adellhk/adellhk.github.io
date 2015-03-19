@@ -126,6 +126,25 @@ div#wtpTile {
   background-image: url("../imgs/WeThePAC.jpg");
   background-size: contain;
 }
+.display-text {
+  display: table-cell;
+  vertical-align: middle;
+  height: 15em;
+  width: 15em;
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio-content a {
+  text-decoration: none;
+}
+
+/*a {
+  text-decoration: none;
+  cursor: pointer;
+}*/
+
 /*div.content div.about div.circular {
   ma: 300px;
   width: 300px;

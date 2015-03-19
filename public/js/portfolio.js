@@ -1,13 +1,17 @@
 $(document).ready(function($) {
 
 	$("#wtpTile").hover(function() {
-		infoState("wtp");
+		tileInfoState($(this), "We The PAC - take your vote beyond the ballot box.");
 	}, function() {
-		/* Stuff to do when the mouse leaves the element */
+		resetTile($(this));
 	});
 
-	function infoState(string) {
-		console.log(string);
-	}
+	function tileInfoState(tile, displayText) {
+		tile.html('<span class="display-text">'+displayText+'</span>');
+	};
+
+	function resetTile(tile) {
+		tile.html("");
+	};
 
 });
