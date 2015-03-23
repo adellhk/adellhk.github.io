@@ -138,8 +138,8 @@ div.about-text p {
     height: 800px;
   }
   div.portfolio-tile {
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 16em;
     border: 1px solid black;
     margin: .5em;
     display: inline-block;
@@ -153,11 +153,15 @@ div.about-text p {
     background-image: url("../imgs/WeThePAC.jpg");
     background-size: contain;
   }
+  div#rockshoeTile {
+    background-image: url("../imgs/Rockshoe.jpg");
+    background-size: contain;
+  }
   .display-text {
     display: table-cell;
     vertical-align: middle;
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 16em;
     background: rgba(0, 0, 0, .5);
     color: white;
     text-align: center;
