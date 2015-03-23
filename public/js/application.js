@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  // minimize all divs on load
-  $('div.content div.about, div.content div.portfolio, div.content div.resume, div.content div.blog').slideUp();
+  // // minimize all divs on load
+  // $('div.content div.about, div.content div.portfolio, div.content div.resume, div.content div.blog').slideUp();
+
   // bring scroll to top on load.
   $('html, body').animate({
     scrollTop: 0
@@ -25,26 +26,23 @@ $(document).ready(function() {
     }
   });
 
-  function bindNavListeners(navButton, contentButton, content){
+  function bindNavListeners(navButton, target) {
     navButton.click(function(){
-        content.slideDown();
+        // content.slideDown();
       $('html, body').animate({
-        scrollTop: contentButton.offset().top-30
-      }, 700, function() {
+        scrollTop: target.offset()['top']
       });
     });
   };
 
-  bindNavListeners($('li#aboutNav'), $('div.content button.about'), $('div.content div.about'));
-  bindNavListeners($('li#portfolioNav'), $('div.content button.portfolio'), $('div.content div.portfolio'));
-  bindNavListeners($('li#resumeNav'), $('div.content button.resume'), $('div.content div.resume'));
-  bindNavListeners($('li#blogNav'), $('div.content button.blog'), $('div.content div.blog'));
+  bindNavListeners($('#aboutNav'), $('div.about'), $('div.content div.about'));
+  bindNavListeners($('#portfolioNav'), $('div.portfolio'), $('div.content div.portfolio'));
+  bindNavListeners($('#resumeNav'), $('div.resume'), $('div.content div.resume'));
+  // bindNavListeners($('#blogNav'), $('div.blog'), $('div.content div.blog'));
 
-  $('div.content button.about').click(function() { $('div.content div.about').slideToggle('fast'); });
-  $('div.content button.portfolio').click(function() { $('div.content div.portfolio').slideToggle('fast'); });
-  $('div.content button.resume').click(function() { $('div.content div.resume').slideToggle('fast'); });
-  $('div.content button.blog').click(function() { $('div.content div.blog').slideToggle('fast'); });
-  $('div.resume-content').load('AdellResumeSpring2015.html')
+  // $('div.content button.about').click(function() { $('div.content div.about').slideToggle('fast'); });
+  // $('div.content button.portfolio').click(function() { $('div.content div.portfolio').slideToggle('fast'); });
+  // $('div.content button.resume').click(function() { $('div.content div.resume').slideToggle('fast'); });
 
 
 });
