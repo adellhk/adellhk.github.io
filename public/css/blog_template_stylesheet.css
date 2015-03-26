@@ -157,6 +157,14 @@ div.about-text p {
     background-image: url("../imgs/Rockshoe.jpg");
     background-size: contain;
   }
+  div#wtpAppTile {
+    background-image: url("../imgs/wtpApp.jpg");
+    background-size: contain;
+  }
+  div#eyecatchersTile {
+    background-image: url("../imgs/eyecatchers.jpg");
+    background-size: contain;
+  }
   .display-text {
     display: table-cell;
     vertical-align: middle;
