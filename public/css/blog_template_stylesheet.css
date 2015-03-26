@@ -14,7 +14,7 @@ div.header-listener {
   background: none;
   height: 7%;
   display: inline-block;
-  z-index: 5;
+  z-index: 100;
   top: 0;
 }
 div.header {
@@ -34,49 +34,37 @@ div.header span.title {
   font-size: 185%;
   display: inline-block;
   margin: 0px 5px;
-  /* height: 100%; */
-  /* vertical-align: baseline; */
-  /* border: 1px solid; */
-  /* float: right; */
-  /* bottom: 0; */
-  /* position: absolute; */
-  /* width: initial; */
-  /* right: 33%; */
+  z-index: 98;
 }
 div.header span.nav {
-  /* height: 100%; */
-
   vertical-align: text-bottom;
   display: inline-block;
-  /* border: 1px solid; */
-  /* float: right; */
   position: absolute;
   bottom: 0;
-  /* text-align: right; */
   right: 0;
+  z-index: 10;
 }
 div.header span.nav li {
   color: #e19291;
   font-size: 155%;
   display: inline-block;
-  /*margin: 0px 2px;*/
   cursor: pointer;
   padding-left: 5px;
   padding-right: 5px;
   border-bottom: 2px solid #955251;
-  /*border-right: 2px solid #995251;*/
+  z-index: 10;
 }
 div.header span.nav li:hover {
   border-bottom: 2px solid white;
-  /*border-right: 2px solid white;*/
+  z-index: 10;
 }
 div.header div.container {
   max-width: 67%;
-  /* border: 1px solid; */
   margin: 0 auto;
   display: block;
   position: relative;
   height: 100%;
+  z-index: 10;
 }
 div.content {
   /* margin-top: 2%; */
