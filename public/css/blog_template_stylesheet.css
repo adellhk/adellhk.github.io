@@ -23,7 +23,7 @@ div.header {
   height: 38px;
   text-align: center;
   top: 0;
-  z-index: 3;
+  z-index: 99;
 }
 div.header span.title {
   color: white;
