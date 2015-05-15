@@ -117,6 +117,10 @@ div.about-text p {
   font-size: 175%;
   color: darkred;
 }
+.resume-container {
+  width: 8.5in;
+  margin: auto;
+}
 .resume-content {
   /* margin: auto; */
 
