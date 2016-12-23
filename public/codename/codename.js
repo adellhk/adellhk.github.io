@@ -27,27 +27,62 @@ var nextClass = {
 	'gray': 'unselected'
 };
 
+function Card(name, identity) {
+	this.name = name;
+	this.identity = identity;
+}
+
+function randomIdentity(remainingIdentities) {
+	selectedIdentity = getRandomWord(remainingIdentities[identityTypes]);
+	
+	return [selectedIdentity, remainingIdentities]
+}
+
+
+function createCards(words, numCards = 25, numAssassins = 1, numCivilians = 9, numTeamAs = 8, numTeamBs = 7) {
+	cards = [];
+	remainingIdentities = {
+		"identityTypes": ["Assassin", "Civilian", "teamA", "teamB"],
+		"numAssassins": numAssassins,
+		"numCivilians": numCivilians,
+		"numTeamAs": numTeamA,
+		"numTeamBs": numTeamB
+	}
+	for (var i = 0; i < numCards; i++) {
+		var randomIdentityResults = randomIdentity(remainingIdentities);
+		var cardIdentity = randomIdentityResults[0];
+		var remainingIdentities = randomIdentityResults[1];
+		cards.push(new Card(words[i], cardIdentity));
+	}
+	return cards;
+}
+
+
+
+
 function distributeWords(randomWords) {
-	var distributedWords = [[],[]];
-	var sizeA = 7; var sizeB = 6;
-	while (sizeA > 0 ) {
-		var teamAWords = (getUniqueRandomWords(sizeA, randomWords));
-	}
-	return distributedWords;
+	var sizeA = 8; var sizeB = 7;
+	var teamAWords = getUniqueRandomWords(sizeA, randomWords);
+	var teamBWords = getUniqueRandomWords(sizeB, randomWords, teamAWords);
+	return [teamAWords, teamBWords];
 }
 
-function getUniqueRandomWords(numWords, wordList, selectedWords = []) {
-	if (numWords > wordList.length) throw("Number of unique words requested exceeds number of words given.")
-	var candidateWord = getRandomWord(wordList);
-	if (!selectedWords.includes(candidateWord) {
-		selectedWords.push(candidateWord);
+function getUniqueRandomWords(numWords, wordList, otherTeamWords = []) {
+	if (numWords > wordList.length) {
+		throw("Number of unique words requested exceeds number of words given.")
 	}
-	while (!selectedWords.includes())
-	getRandom(wordList.length)
-}
 
-function getRandom(max) {
-	Math.floor(Math.random() * max);
+	for (var i = 0; i < numWords; i++ ) {
+		var selectedWords = [];
+		var candidateWord = getRandomWord(wordList);
+		if (!selectedWords.includes(candidateWord) && !otherTeamWords.includes(candidateWord)) {
+			selectedWords.push(candidateWord);
+			// TO-DO: could improve by removing candidateWord from wordList
+		} else {
+			// i--;
+		}
+	}
+	return selectedWords;
 }
 
 $(document).ready(function() {
@@ -57,4 +92,6 @@ $(document).ready(function() {
 
 	setTdText(25,randomWords);
 	var teamWords = distributeWords(randomWords);
+	console.log(randomWords);
+	console.log(""+teamWords[0]+" | "+teamWords[1])
 });
