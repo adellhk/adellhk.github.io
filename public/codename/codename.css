@@ -1,0 +1,24 @@
+td {
+    width: 20vw;
+    height: 19vh;
+    text-align: center;
+    /*border: 1px solid black;*/
+    color: white;
+    font-size: 4vw;
+}
+
+td.unselected {
+    background: darkblue;
+}
+
+td.red {
+	background: darkred;
+}
+
+td.black {
+	background: black;
+}
+
+td.gray {
+	background: darkgray;
+}
