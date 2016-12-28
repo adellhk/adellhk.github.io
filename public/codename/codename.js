@@ -65,6 +65,14 @@ function createCards(words, numCards = 25, numAssassins = 1, numCivilians = 9, n
 		var cardIdentity = randomIdentityResults[0];
 		var remainingIdentities = randomIdentityResults[1];
 		cards.push(new Card(words[i], cardIdentity));
+		switch (cardIdentity) {
+				case "teamA":
+				teamAWords.push(words[i]);
+				break;
+				case "teamB":
+				teamBWords.push(words[i]);
+				break;
+			}
 	}
 	return cards;
 }
@@ -72,12 +80,12 @@ function createCards(words, numCards = 25, numAssassins = 1, numCivilians = 9, n
 
 
 
-function distributeWords(randomWords) {
-	var sizeA = 8; var sizeB = 7;
-	var teamAWords = getUniqueRandomWords(sizeA, randomWords);
-	var teamBWords = getUniqueRandomWords(sizeB, randomWords, teamAWords);
-	return [teamAWords, teamBWords];
-}
+// function distributeWords(randomWords) {
+// 	var sizeA = 8; var sizeB = 7;
+// 	var teamAWords = getUniqueRandomWords(sizeA, randomWords);
+// 	var teamBWords = getUniqueRandomWords(sizeB, randomWords, teamAWords);
+// 	return [teamAWords, teamBWords];
+// }
 
 function getUniqueRandomWords(numWords, wordList, otherTeamWords = []) {
 	if (numWords > wordList.length) {
@@ -113,13 +121,15 @@ function revealIdentity(htmlCard) {
 $(document).ready(function() {
 
 	setTdText(25,randomWords);
-	var teamWords = distributeWords(randomWords);
-	console.log(randomWords);
-	console.log(""+teamWords[0]+" | "+teamWords[1])
+	// var teamWords = distributeWords(randomWords); //obsolete
+	teamAWords = [];
+	teamBWords = [];
 	cards = createCards(randomWords);
 	console.log(cards);
 
 	$('td').click(function(e) {
 		revealIdentity(this);
 	});
+
+	window.alert("teamA: " + teamAWords + "\n" + "teamB: " + teamBWords + "\n :D");
 });
