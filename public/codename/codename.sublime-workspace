@@ -1,0 +1,1392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rando",
+				"randomIdentity"
+			],
+			[
+				"random",
+				"randomWords"
+			],
+			[
+				"select",
+				"selectRandomWords"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"version",
+				"version"
+			],
+			[
+				"app",
+				"app_version"
+			],
+			[
+				"updat",
+				"update_extra_zips"
+			],
+			[
+				"estimate",
+				"estimate_zips"
+			],
+			[
+				"check",
+				"check_subscription_receipts"
+			],
+			[
+				"subscription",
+				"subscription_active"
+			],
+			[
+				"android",
+				"android_receipt"
+			],
+			[
+				"expires",
+				"expires_at"
+			],
+			[
+				"refresh",
+				"refresh_token"
+			],
+			[
+				"cla",
+				"cla	class .. initialize .. end"
+			],
+			[
+				"Bingo",
+				"BINGO"
+			],
+			[
+				"se",
+				"serving_suggestion"
+			],
+			[
+				"left",
+				"leftover_ingredients"
+			],
+			[
+				"my",
+				"myVar"
+			],
+			[
+				"sep",
+				"separated_num"
+			],
+			[
+				"right",
+				"right_to_left"
+			],
+			[
+				"hori",
+				"horizon"
+			],
+			[
+				"exst",
+				"existingSurveyContainer"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"submit",
+				"submitResponsesListener"
+			],
+			[
+				"newQuesi",
+				"newQuestionContainer"
+			],
+			[
+				"addSub",
+				"addSubChoiceListener"
+			],
+			[
+				"prop",
+				"prop	.prop() - single"
+			],
+			[
+				"newQuste",
+				"newQuestionContainer"
+			],
+			[
+				"this",
+				"thisPromiseCount"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"square",
+				"square_two"
+			],
+			[
+				"stand",
+				"standardizeUk"
+			],
+			[
+				"standa",
+				"standardizeUiaa"
+			],
+			[
+				"Fr",
+				"standardize_french"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"e",
+				"eap	each_pair { |name, val| .. }"
+			],
+			[
+				"tra",
+				"translations"
+			],
+			[
+				"standard",
+				"standardize_french"
+			],
+			[
+				"item",
+				"items_id"
+			],
+			[
+				"csa",
+				"class"
+			],
+			[
+				"index",
+				"index"
+			],
+			[
+				"case",
+				"case	case … end"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"freeway",
+				"freeway_width"
+			],
+			[
+				"get",
+				"get_input"
+			],
+			[
+				"generate",
+				"generate_pairs"
+			],
+			[
+				"bind",
+				"bindInfoState"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"reset",
+				"resetTile"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "rei",
+		"selected_items":
+		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown HTML Preview"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"markd",
+				"Markdown HTML Preview"
+			],
+			[
+				"set rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set multi",
+				"Table Editor: Set table syntax 'MultiMarkdown' for current view"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set mult",
+				"Table Editor: Set table syntax 'MultiMarkdown' for current view"
+			],
+			[
+				"mul",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ri",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview in",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"priev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"prie",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"k",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scope",
+				"Snippet: include Comparable .."
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"Status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preferences",
+				"Preferences: Browse Packages"
+			],
+			[
+				"markdown p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set syn java",
+				"Set Syntax: Java"
+			],
+			[
+				"markdow prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packag in",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packagins",
+				"Package Control: Install Package"
+			],
+			[
+				"reni",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ruyb",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rien",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"Wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wo to",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"wot",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sy rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set synt rb",
+				"Set Syntax: Ruby"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				" syt ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set syntax ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"set ja",
+				"Set Syntax: Java"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adell/Documents/gits/adellhk.github.io/public/codename"
+	],
+	"file_history":
+	[
+		"/Users/adell/Documents/gits/adellhk.github.io/public/codename/codename.html",
+		"/Users/adell/Documents/gits/adellhk.github.io/public/codename/codename.js",
+		"/Users/adell/Google Drive/Test Kitchen/BBFCCCC.docx.gdoc",
+		"/Users/adell/Documents/gits/adellhk.github.io/public/codename/codename.css",
+		"/Users/adell/Google Drive/What's the Beta.md",
+		"/Users/adell/Google Drive/crag_bag.md",
+		"/Users/adell/Google Drive/codez/codename/codename.css",
+		"/Users/adell/Google Drive/codez/codename/codename.html",
+		"/Users/adell/Google Drive/codez/codename/codename.js",
+		"/Users/adell/Desktop/dictionary25.rb",
+		"/Users/adell/Google Drive/codez/codename/dictionary.csv",
+		"/Users/adell/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/adell/Google Drive/Career/proudest achievement.md",
+		"/Users/adell/Google Drive/SA.md",
+		"/Users/adell/Google Drive/chocolate mousse.md",
+		"/Users/adell/Documents/listless_ideas.md",
+		"/Users/adell/Documents/algorithm practice/timer.rb",
+		"/Users/adell/Downloads/colors_green_grey.xml",
+		"/Users/adell/Documents/google_rejection_notes.md",
+		"/Users/adell/Documents/algorithm practice/in_place_shuffle.rb",
+		"/Users/adell/Google Drive/Career/2016.8/cover_note_instamotor.md",
+		"/Users/adell/Google Drive/Career/2016.8/cover_letter_fitbit.md",
+		"/Users/adell/Google Drive/Career/2016.8/Project_stories.md",
+		"/Users/adell/Documents/algorithm practice/scale.rb",
+		"/Users/adell/Documents/algorithm practice/bubbleSort.rb",
+		"/Users/adell/Documents/algorithm practice/for_loop.rb",
+		"/Users/adell/Google Drive/Career/2016.8/Questions_for_interviewer.md",
+		"/Users/adell/Google Drive/Career/2016.8/cover_letter_fitbit.txt",
+		"/Users/adell/Documents/algorithm practice/all_permutations.rb",
+		"/Users/adell/Google Drive/la packing list.md",
+		"/Users/adell/Documents/algorithm practice/fibonnaci.rb",
+		"/Users/adell/Documents/UAND/Popular Movies/notes.md",
+		"/Users/adell/Documents/UAND/.git/COMMIT_EDITMSG",
+		"/Users/adell/Documents/algorithm practice/isReversible.java",
+		"/Volumes/Seagate Expansion Drive/Downloads/movies/Batman.v.Superman.Dawn.of.Justice.2016.EXTENDED.1080p.BluRay.H264.AAC-RARBG/Batman.v.Superman.Dawn.of.Justice.2016.EXTENDED.1080p.BluRay.H264.AAC-RARBG.nfo",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/css/style.css",
+		"/Users/adell/Documents/algorithm practice/riffle.rb",
+		"/Users/adell/Documents/HomeBuzz/Notes/seed_listing.rb",
+		"/Users/adell/HomingIn/HomingInXamarin/.git/COMMIT_EDITMSG",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/js/counsellorphk.js",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/services.html",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/index.html",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/about.html",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/contact.html",
+		"/Users/adell/.bash_profile",
+		"/Users/adell/Documents/.bash_profile",
+		"/Users/adell/Library/Application Support/Karabiner/private.xml",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/.git/COMMIT_EDITMSG",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/public_v1/google_play_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/Keys/HomebuzzPurchases-2f937ea64474.json",
+		"/Users/adell/Documents/HomeBuzz/Keys/googleauth_example.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/config/database.yml",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/views/api/v1/users/index.json.jbuilder",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/pub_api_keys_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/min_version_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/views/api/v1/users/show.json.jbuilder",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/users_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/config/routes.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/extra_zips_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/.git/MERGE_MSG",
+		"/Users/adell/Documents/HomeBuzz/Keys/jwt_attempt.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/extra_zip.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/user.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/lib/tasks/check_unlimited_zips_subscription.rake",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/google_play_token.rb",
+		"/Users/adell/Documents/HomeBuzz/AndroidHomeBuzz/data/build.gradle",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/spec/factories/google_play_tokens.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/lib/tasks/google_play_token.rake",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/lib/tasks/check_apple.rake",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/.gitignore",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/Gemfile",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/schema.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/lib/tasks/scheduler.rake",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/crontab",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/migrate/20151213084513_create_google_play_tokens.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/log/development.log",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/Gemfile.lock",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/config/application.yml",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/config/secrets.yml",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/.env",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/migrate/20151001200956_create_offices.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/migrate/20151213084810_drop_google_play_settings.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/migrate/20151204025638_create_google_play_settings.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/google_play_settings.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/db/migrate/20151210041650_add_invite_fields_to_messages.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/estimates_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/listing.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/auth_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/README.md",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/Rakefile",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/public_v1/estimates_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/messages_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/current_android_architecture.md",
+		"/Users/adell/.profile",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/texts_controller.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/office.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/profile_photo.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/models/profile.rb",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/app/controllers/api/v1/profiles_controller.rb",
+		"/Users/adell/Documents/gits/LightningForm/app/build.gradle",
+		"/Users/adell/Documents/dbc/p0guide/gps1.1_notes.md",
+		"/Users/adell/Documents/gits/LightningForm/settings.gradle",
+		"/Users/adell/Documents/gits/LightningForm/build.gradle",
+		"/Users/adell/Documents/HomeBuzz/imhome-api/bin/setup",
+		"/Users/adell/Documents/homebuzz_plan_12_15.md",
+		"/Users/adell/Documents/homebuzz_notes.md",
+		"/Users/adell/Documents/expenses_Dec_15.md",
+		"/Users/adell/Documents/hombuzz_org_structure.md",
+		"/Users/adell/Documents/contacts.md",
+		"/Users/adell/Documents/game_class.rb",
+		"/Users/adell/Documents/app_ideas.md",
+		"/Users/adell/Documents/longestpalindromicsubstring.java",
+		"/Users/adell/Documents/supplement_stack_11_11_15.md",
+		"/Users/adell/Documents/gits/AndroidPractice/.git/MERGE_MSG",
+		"/Users/adell/Documents/gits/CriminalIntent/.git/MERGE_MSG",
+		"/Users/adell/Documents/gits/CriminalIntent/.git/COMMIT_EDITMSG",
+		"/Users/adell/Documents/dbc/p0guide/gameU3w7SynnisterDomini.js",
+		"/Users/adell/Documents/dbc/p0guide/fatma_feedback.md",
+		"/Users/adell/Desktop/StatementPdf.pdf",
+		"/Users/adell/Documents/dbc/p0guide/bakery_larsjx_jp.rb",
+		"/Users/adell/Documents/bitbucket/counsellorphk/Gemfile",
+		"/Users/adell/Documents/bitbucket/counsellorphk/config/database.yml",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/home.html",
+		"/Users/adell/Documents/gits/adellhk.github.io/index.html",
+		"/Users/adell/Documents/gits/adellhk.github.io/public/ResumeSp15.pdf",
+		"/Users/adell/Documents/bitbucket/counsellorphk/public/browserconfig.xml",
+		"/Users/adell/Library/Application Support/Sublime Text 3/Packages/User/reset_font_size_command.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"dictionary25.rb",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var ",
+			"[[],[]];\n",
+			"selectedWords",
+			"apportion",
+			"\"unselected\"",
+			"<td>",
+			"1",
+			"<tr>\n			<td>1</td>\n			<td>1</td>\n			<td>1</td>\n			<td>1</td>\n			<td>1</td>\n		</tr>",
+			"1",
+			"dictionary",
+			", ",
+			"\\n",
+			"a",
+			", ",
+			", \n",
+			"\n",
+			"*",
+			"?",
+			"# ",
+			"I\n",
+			"#",
+			"Name of your app",
+			"Name of App Here",
+			"rich",
+			"half1",
+			"slice",
+			"border",
+			"today",
+			"tive",
+			"init",
+			"enum",
+			"show",
+			"Please update it to ",
+			" app_version",
+			"params[:app_version]",
+			"iTunes",
+			"iOS",
+			"ios",
+			"iOS",
+			"ios",
+			"Gem::Version.new(params[:app_version])",
+			"permissible",
+			"@message",
+			"logger",
+			"GET",
+			"show",
+			"@zip.save",
+			" => ",
+			": ",
+			":",
+			"\":",
+			":",
+			"\"",
+			"<<",
+			"zips += current_user.extra_zips.map(&:zip_code) if current_user[:subscription_active]",
+			"zips << current_user.extra_zips.map(&:zip_code) if current_user[:subscription_active]",
+			"zips = [current_user.zip_code]\n      zips << current_user.extra_zips.map(&:zip_code) if current_user[:subscription_active]\n      current_user.update(estimate_zips: zips)",
+			"zips << current_user.extra_zips.map(&:zip_code) if current_user[:subscription_active]",
+			"zip_code",
+			"[:user]",
+			"self.update",
+			"update",
+			":user",
+			"require",
+			"user",
+			"User",
+			"subscription",
+			"index",
+			"update",
+			"iap_receipt",
+			"iap_rec",
+			"receipt",
+			"subscription_active",
+			"whenever",
+			"\n      ",
+			"first_or_initialize",
+			"\"",
+			": ",
+			"shotgun",
+			"rerun",
+			":",
+			"byebug",
+			"settings",
+			"http://localhost:3000",
+			"figaro",
+			"env",
+			"dotenv",
+			"GooglePlaySettings",
+			"&",
+			"string",
+			"refresh",
+			"google",
+			"google_play",
+			"play",
+			"oauth2",
+			"oauth",
+			"BASE_HOST",
+			"open_forget_password",
+			"forgot",
+			"Requires authorization",
+			"token",
+			"before",
+			"before do",
+			"auth",
+			"valid",
+			"console",
+			"estimate_params",
+			"exam",
+			"is_over",
+			"# ",
+			"item",
+			"items",
+			"%7C",
+			"player1",
+			"height",
+			"About",
+			"about",
+			"med-light",
+			":",
+			"p>",
+			"”",
+			"ingred_req",
+			"preferred_food",
+			"provided_ingredients",
+			"item_to_make",
+			"item",
+			"p new_game.check(\"B44\", @board)\n",
+			"B44"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\", \"",
+			", ",
+			"\", \"",
+			", ",
+			"dleInse",
+			"{",
+			"pledge"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/adell/Documents/gits/adellhk.github.io/public/codename"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 317.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"css",
+				"codename.css"
+			],
+			[
+				"htm",
+				"codename.html"
+			],
+			[
+				"codenamjs",
+				"codename.js"
+			],
+			[
+				"serv",
+				"public/services.html"
+			],
+			[
+				"profile_",
+				"app/controllers/api/v1/profiles_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"controller",
+				"app/controllers/pub_api_keys_controller.rb"
+			],
+			[
+				"api",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"usersindex",
+				"app/views/api/v1/users/index.json.jbuilder"
+			],
+			[
+				"users",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"user_con",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"databas",
+				"config/database.yml"
+			],
+			[
+				"extra_zips",
+				"app/controllers/api/v1/extra_zips_controller.rb"
+			],
+			[
+				"viewsusershow",
+				"app/views/api/v1/users/show.json.jbuilder"
+			],
+			[
+				"viewsusersindex",
+				"app/views/api/v1/users/index.json.jbuilder"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"googlp",
+				"app/models/google_play_token.rb"
+			],
+			[
+				"extra_zips_controller",
+				"app/controllers/api/v1/extra_zips_controller.rb"
+			],
+			[
+				"spec/factories/google",
+				"spec/factories/google_play_tokens.rb"
+			],
+			[
+				"user_cont",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"play",
+				"lib/tasks/google_play_token.rake"
+			],
+			[
+				"appel",
+				"lib/tasks/check_apple.rake"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"rake",
+				"lib/tasks/scheduler.rake"
+			],
+			[
+				"development",
+				"log/development.log"
+			],
+			[
+				"googleplaytoke",
+				"db/migrate/20151213084513_create_google_play_tokens.rb"
+			],
+			[
+				"google",
+				"app/models/google_play_token.rb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"db/schem",
+				"db/schema.rb"
+			],
+			[
+				"estimates_controller",
+				"app/controllers/api/v1/estimates_controller.rb"
+			],
+			[
+				"api_contr",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"estimates_co",
+				"app/controllers/api/v1/estimates_controller.rb"
+			],
+			[
+				"listi",
+				"app/models/listing.rb"
+			],
+			[
+				"rakefile",
+				"Rakefile"
+			],
+			[
+				"profile_co",
+				"app/controllers/api/v1/profiles_controller.rb"
+			],
+			[
+				"office",
+				"app/models/office.rb"
+			],
+			[
+				"profile",
+				"app/models/profile_photo.rb"
+			],
+			[
+				"text",
+				"app/controllers/api/v1/texts_controller.rb"
+			],
+			[
+				"auth",
+				"app/controllers/api/v1/auth_controller.rb"
+			],
+			[
+				"setup",
+				"bin/setup"
+			],
+			[
+				"js",
+				"public/js/counsellorphk.js"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"databe",
+				"config/database.yml"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"controllers/",
+				"rockshoefitreview/app/controllers/index.rb"
+			],
+			[
+				"grade",
+				"rockshoefitreview/app/views/grade_conversion_interface.html"
+			],
+			[
+				"models",
+				"app/models/grade_conversions.rb"
+			],
+			[
+				"models/",
+				"app/models/conversion.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"blog_t",
+				"public/css/blog_template_stylesheet.css"
+			],
+			[
+				"part-2/",
+				"part-2/student.js"
+			],
+			[
+				"class",
+				"part-2/classroom.js"
+			],
+			[
+				"cla",
+				"part-2/classroom.js"
+			],
+			[
+				"student",
+				"part-2/student.js"
+			],
+			[
+				"sock_ma",
+				"sock_matcher.rb"
+			],
+			[
+				"socd",
+				"sock_drawer.rb"
+			],
+			[
+				"enviro",
+				"config/environment.rb"
+			],
+			[
+				"07",
+				"07.html"
+			],
+			[
+				"03",
+				"03.html"
+			],
+			[
+				"01",
+				"01.html"
+			],
+			[
+				"02.ht",
+				"02.html"
+			],
+			[
+				"databa",
+				"config/database.yml"
+			],
+			[
+				"appli",
+				"public/js/application.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"welcomeindex",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"welcome",
+				"app/assets/stylesheets/welcome.css"
+			],
+			[
+				"welcome.j",
+				"app/assets/javascripts/welcome.js"
+			],
+			[
+				"welcomeind",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"welcome.js",
+				"app/assets/javascripts/welcome.js"
+			],
+			[
+				"curtain",
+				"app/assets/javascripts/curtains.js"
+			],
+			[
+				"seeds.",
+				"db/seeds.rb"
+			],
+			[
+				"api_",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"weet.js",
+				"app/assets/javascripts/tweet.js"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"article.js",
+				"app/assets/javascripts/articles.js"
+			],
+			[
+				"articl",
+				"app/views/articles/index.html.erb"
+			],
+			[
+				"rep.js",
+				"app/assets/javascripts/reps.js"
+			],
+			[
+				"show",
+				"app/views/reps/show.html.erb"
+			],
+			[
+				"curt",
+				"app/assets/javascripts/curtains.js"
+			],
+			[
+				"seed.rb",
+				"db/seeds.rb"
+			],
+			[
+				"assets",
+				"config/initializers/assets.rb"
+			],
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"welcome_",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"welcome_c",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"api_c",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"header",
+				"app/views/layouts/_logged_in_header.html.erb"
+			],
+			[
+				"sh",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"logge",
+				"app/views/layouts/_logged_in_header.html.erb"
+			],
+			[
+				"api_co",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"app/assets/styl",
+				"app/assets/stylesheets/layout.css"
+			],
+			[
+				"rep_co",
+				"app/controllers/reps_controller.rb"
+			],
+			[
+				"application_c",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"tweet",
+				"app/assets/javascripts/tweet.js"
+			],
+			[
+				"user.",
+				"app/assets/javascripts/users.js"
+			],
+			[
+				"applic",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appi",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"achievements",
+				"app/controllers/achievements_controller.rb"
+			],
+			[
+				"achieve",
+				"app/models/achievement.rb"
+			],
+			[
+				"pet_co",
+				"app/controllers/pets_controller.rb"
+			],
+			[
+				"create",
+				"db/migrate/20150304171942_create_achievements.rb"
+			],
+			[
+				"reate_",
+				"db/migrate/20150304171930_create_pets.rb"
+			],
+			[
+				"achie",
+				"app/models/achievement.rb"
+			],
+			[
+				"pet.rb",
+				"app/models/pet.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

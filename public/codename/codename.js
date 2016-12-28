@@ -33,8 +33,10 @@ function Card(name, identity) {
 }
 
 function randomIdentity(remainingIdentities) {
-	selectedIdentity = getRandomWord(remainingIdentities[identityTypes]);
-	
+	selectedIdentity = getRandomWord(remainingIdentities["identityTypes"]);
+
+	remainingIdentities.decrement(selectedIdentity);
+
 	return [selectedIdentity, remainingIdentities]
 }
 
@@ -45,9 +47,19 @@ function createCards(words, numCards = 25, numAssassins = 1, numCivilians = 9, n
 		"identityTypes": ["Assassin", "Civilian", "teamA", "teamB"],
 		"numAssassins": numAssassins,
 		"numCivilians": numCivilians,
-		"numTeamAs": numTeamA,
-		"numTeamBs": numTeamB
+		"numTeamAs": numTeamAs,
+		"numTeamBs": numTeamBs,
+		decrement: function(identityType) {
+			var key = "num" + identityType[0].toUpperCase() + identityType.substring(1) + "s";
+			this[key] -= 1;
+
+			if (this[key] == 0) {
+				this.identityTypes.splice(this.identityTypes.indexOf(identityType), 1);
+			}
+
+		}
 	}
+
 	for (var i = 0; i < numCards; i++) {
 		var randomIdentityResults = randomIdentity(remainingIdentities);
 		var cardIdentity = randomIdentityResults[0];
@@ -85,13 +97,29 @@ function getUniqueRandomWords(numWords, wordList, otherTeamWords = []) {
 	return selectedWords;
 }
 
+var identityLookUp = {
+	"assassin": "pink",
+	"Civilian": "gray",
+	"teamA": "red",
+	"teamB": "black"
+}
+
+function revealIdentity(htmlCard) {
+	var htmlCardIndex = parseInt(htmlCard.id.substr(2));
+	var cardIdentity = cards[htmlCardIndex].identity;
+	htmlCard.className = identityLookUp[cardIdentity];
+}
+
 $(document).ready(function() {
-	$('td').click(function(e) {
-		this.className = nextClass[this.className];
-	});
 
 	setTdText(25,randomWords);
 	var teamWords = distributeWords(randomWords);
 	console.log(randomWords);
 	console.log(""+teamWords[0]+" | "+teamWords[1])
+	cards = createCards(randomWords);
+	console.log(cards);
+
+	$('td').click(function(e) {
+		revealIdentity(this);
+	});
 });
