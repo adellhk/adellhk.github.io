@@ -72,6 +72,9 @@ function createCards(words, numCards = 25, numAssassins = 1, numCivilians = 9, n
 				case "teamB":
 				teamBWords.push(words[i]);
 				break;
+				case "Assassin":
+				assassin.push(words[i]);
+				break;
 			}
 	}
 	return cards;
@@ -124,6 +127,7 @@ $(document).ready(function() {
 	// var teamWords = distributeWords(randomWords); //obsolete
 	teamAWords = [];
 	teamBWords = [];
+	assassin = [];
 	cards = createCards(randomWords);
 	console.log(cards);
 
@@ -131,5 +135,5 @@ $(document).ready(function() {
 		revealIdentity(this);
 	});
 
-	window.alert("teamA: " + teamAWords + "\n" + "teamB: " + teamBWords + "\n :D");
+	window.alert("teamA: " + teamAWords + "\n" + "teamB: " + teamBWords + "\n Assassin: " + assassin + "\nglhf! :D");
 });
